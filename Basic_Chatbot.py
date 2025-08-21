@@ -1,7 +1,7 @@
 def chatbot(user):
     user = user.lower()
 
-    if user in ["hello", "hii"]:
+    if user in ["hello", "hii", "hi"]:
         return "hello!"
     elif user in ["who are you"]:
         return "I am a basic Chatbot"
@@ -23,4 +23,5 @@ while(True):
 
     if user in ["bye", "byy", "by", "goodbye"]:
         break
+
 
